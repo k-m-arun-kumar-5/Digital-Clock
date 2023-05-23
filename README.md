@@ -16,6 +16,10 @@ NEXT_DATA_SW is used to select the RTC data.
 8: When NEXT_DATA_SW is pressed, minute is set and selects seconds to set. By each press of INC_VALUE_SW, seconds is increment with roll back. 	
 9: When NEXT_DATA_SW is pressed, seconds is set and converts selected date and time with Decimal to BCD and then configures date and time of DS1307 RTC. Then goto Step 1.
 
+CAUTION:
+========
+Schematics and simulation is done by Proteus CAD. NOT EXPERIMENTED IN REAL TIME ENVIRONMENT.
+
 Purpose :
 =========
 In all my respective repositories, I just shared my works that I worked as the learning path and practiced, with designed, developed, implemented, simulated and tested, including some projects, assignments, documentations and all other related files and some programming that might not being implement, not being completed, lacks some features or have some bugs. Purpose of all my repositories, if used, can be used for learning and educational purpose only. It can be used as the open source and freeware. Kindly read the LICENSE.txt for license, terms and conditions about the use of source codes, binaries, documentation and all other files, located in all my repositories. 
